@@ -36,8 +36,8 @@ export const OpenMind = () => {
   const [pressed, setPressed] = useState(false)
 
   const setMenuVisible = () => {
-      pressed ? setVisible("button-box-fechar") : setVisible("button-box")
-      setPressed(!pressed)
+    pressed ? setVisible("button-box-fechar") : setVisible("button-box")
+    setPressed(!pressed)
   }
   return (
     <>
@@ -1394,10 +1394,10 @@ export const OpenMind = () => {
                   </svg>
                 </div>
                 <h4 className='mb-3 text-xl font-bold text-dark'>
-                  Pensar em o que colocar
+                  Software
                 </h4>
                 <p className='mb-8 text-body-color lg:mb-11'>
-                  Lorem Ipsum is simply dummy text of the printing and industry.
+                  Fornecemos serviços de software empresarial e aplicação web.
                 </p>
               </div>
             </div>
@@ -1467,10 +1467,10 @@ export const OpenMind = () => {
                   </svg>
                 </div>
                 <h4 className='mb-3 text-xl font-bold text-dark'>
-                  Pensar em que colocar
+                  Suporte
                 </h4>
                 <p className='mb-8 text-body-color lg:mb-11'>
-                  Lorem Ipsum is simply dummy text of the printing and industry.
+                  Temos suporte para nossos serviços, treinamento ao cliente e atendimento direto.
                 </p>
               </div>
             </div>
@@ -1480,21 +1480,21 @@ export const OpenMind = () => {
               <div className={visible}>
                 <Chatbot />
                 <div className='flex items-center sm:flex-col'>
-                  <img src={chat} alt="" className='bb w-96 h-96'/>
+                  <img src={chat} alt="" className='bb w-96 h-96' />
                 </div>
               </div>
             </div>
             <button class='button-chat-button' onClick={() => setMenuVisible()} onBlur={() => setMenuVisible(false)}>
-              <ChatIcon className='w-11 text-green-600 hover:scale-110 duration-200 ease-in-out hover:text-green-400'/>
+              <ChatIcon className='w-11 text-green-600 hover:scale-110 duration-200 ease-in-out hover:text-green-400' />
             </button>
           </div>
-          
-          
+
+
         </div>
       </section>
 
 
-      
+
 
 
       <section
@@ -1514,7 +1514,7 @@ export const OpenMind = () => {
                     <span
                       className='mb-5 inline-block bg-primary py-2 px-5 text-sm font-medium text-white'
                     >
-                      Montagem Website Cliente
+                      Nota ao cliente
                     </span>
                     <h2
                       className='mb-6 text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-green-800 sm:text-4xl sm:leading-snug 2xl:text-[40px]'
@@ -1522,15 +1522,27 @@ export const OpenMind = () => {
                       OpenMind Connect
                     </h2>
                     <p className='mb-9 text-base leading-relaxed text-body-color'>
-                      The main ‘thrust' is to focus on educating attendees on how
-                      to best protect highly vulnerable business applications with
-                      interactive panel discussions and roundtables led by subject
-                      matter experts.
+                      A empresa possui uma equipe de desenvolvedores web,
+                      designers e criadores de conteúdo experientes que trabalham juntos para criar
+                      sites de acordo com suas expectativas.
+                      Os clientes da OpenMind Connect podem construir confiança com a empresa
+                      que demonstra seu compromisso com a transparência e responsabilidade.
                     </p>
                     <p className='mb-9 text-base leading-relaxed text-body-color'>
-                      The main ‘thrust' is to focus on educating attendees on how
-                      to best protect highly vulnerable business applications with
-                      interactive panel.
+                      Entendemos a importância da divulgação para empresas que vendem produtos
+                      ou serviços online, para ajudar seus clientes a aproveitar as divulgações
+                      de seus produtos, a OpenMind Connect trabalha em estreita colaboração com
+                      seus clientes para entender suas necessidades e requisitos específicos.
+                    </p>
+                    <p className='mb-9 text-base leading-relaxed text-body-color'>
+                      A equipe de criadores de conteúdo da empresa trabalha para criar suas
+                      divulgações, concisas e informativas que atendam a todos os requisitos legais
+                      e sejam fáceis de entender pelos clientes.
+
+                      A OpenMind Connect também garante que as divulgações sejam exibidas com
+                      destaque em seu próprio site redirecionando a página do cliente.
+                      A empresa utiliza diversas técnicas para chamar a atenção para as divulgações
+                      dos produtos.
                     </p>
                   </div>
                   <div className='text-center'>
