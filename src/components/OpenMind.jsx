@@ -30,6 +30,7 @@ import mysql from '../assets/mysql.png';
 import footershape1 from '../assets/footer/shape-1.svg';
 import footershape3 from '../assets/footer/shape-3.svg';
 import chat from '../assets/chat.png';
+import graphic from '../assets/graphic.png'
 
 export const OpenMind = () => {
   const [visible, setVisible] = useState("button-box-fechar")
@@ -1548,7 +1549,7 @@ export const OpenMind = () => {
                   <div className='text-center'>
                     <div className='relative z-10 inline-block'>
                       <img
-                        src={aboutimg1}
+                        src={graphic}
                         alt='image'
                         className='mx-auto lg:ml-auto'
                       />
