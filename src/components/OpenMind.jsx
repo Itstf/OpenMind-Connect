@@ -169,7 +169,7 @@ export const OpenMind = () => {
                   <img
                     src={tec1}
                     alt='hero'
-                    className='mx-auto max-w-full rounded-t-xl rounded-tr-xl'
+                    className='mx-auto max-w-full rounded-t-xl rounded-tr-xl hover:scale-110 duration-200 ease-in-out'
                   />
                 </div>
                 <div className='absolute bottom-0 -left-9 z-[-1]'>
