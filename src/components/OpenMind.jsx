@@ -1486,7 +1486,7 @@ export const OpenMind = () => {
               </div>
             </div>
           </div>
-          <button class='button-chat-button' onClick={() => setMenuVisible()} onBlur={() => setMenuVisible(false)}>
+          <button class='button-chat-button' onClick={() => setMenuVisible()}>
               <ChatIcon className='w-11 text-green-600 hover:scale-110 duration-200 ease-in-out hover:text-green-400' />
           </button>
         </div>
