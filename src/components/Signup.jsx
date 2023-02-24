@@ -182,7 +182,7 @@ export const SignUp = () => {
                         <div className='w-full px-4 sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-3/12'>
                             <div className='mb-10 w-full'>
                                 <a href='javascript:void(0)' className='mb-6 inline-block max-w-[160px]'>
-                                    <img src={logoOpenMind1} alt='logo' className='max-w-full' />
+                                    <img src={logoOpenMind1} alt='logo' className='w-28 hover:rotate-6 scale-110 duration-200 ease-in-out' />
                                 </a>
                                 <p className='mb-7 text-base text-[#f3f4fe]'>
                                     Vamos transformar sua visão em realidade e conecta-lá ao mundo!

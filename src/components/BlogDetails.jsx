@@ -152,10 +152,10 @@ export const BlogDetails = () => {
                       Erant appareat corrumpit ei vel.
                     </p>
                     <div
-                      className='wow fadeInUp relative z-10 mb-10 overflow-hidden rounded bg-primary bg-opacity-5 py-8 px-6 text-center sm:p-10 md:px-[60px]'
+                      className='wow fadeInUp relative z-10 mb-10 overflow-hidden rounded bg-primary bg-opacity-5 py-8 px-6 text-center sm:p-10 md:px-[60px] shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]'
                       data-wow-delay='.1s
                       '>
-                      <div className='mx-auto max-w-[530px]'>
+                      <div className='mx-auto max-w-[530px] '>
                         <span className='mb-6 flex justify-center text-primary'>
                           <svg width='44' height='26' viewBox='0 0 44 26' className='fill-current'>
                             <path
@@ -180,7 +180,7 @@ export const BlogDetails = () => {
                             <defs>
                               <linearGradient id='paint0_linear' x1='-101.591' y1='-50.4346' x2='49.1618' y2='-49.6518'
                                 gradientUnits='userSpaceOnUse'>
-                                <stop stop-color='#3056D3' stop-opacity='0.15' />
+                                <stop stop-color='#04ff00' stop-opacity='0.15' />
                                 <stop offset='1' stop-color='white' stop-opacity='0' />
                               </linearGradient>
                             </defs>
@@ -243,7 +243,7 @@ export const BlogDetails = () => {
                 <div className='w-full px-4 lg:w-4/12'>
                   <div>
                     <div
-                      className='wow fadeInUp relative mb-12 overflow-hidden rounded bg-primary py-[60px] px-11 text-center lg:px-8'
+                      className='wow fadeInUp relative mb-12 overflow-hidden rounded bg-primary py-[60px] px-11 text-center lg:px-8 shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]'
                       data-wow-delay='.1s
                       '>
                       <h3 className='mb-2 text-2xl font-semibold text-white'>
@@ -514,7 +514,7 @@ export const BlogDetails = () => {
             <div className='w-full px-4 sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-3/12'>
               <div className='mb-10 w-full'>
                 <a href='javascript:void(0)' className='mb-6 inline-block max-w-[160px]'>
-                  <img src={logoOpenMind1} alt='logo' className='max-w-full' />
+                  <img src={logoOpenMind1} alt='logo' className='w-28 cursor-default hover:rotate-6 scale-110 duration-200 ease-in-out' />
                 </a>
                 <p className='mb-7 text-base text-[#f3f4fe]'>
                   Vamos transformar sua visão em realidade e conecta-lá ao mundo!
