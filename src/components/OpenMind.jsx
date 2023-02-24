@@ -1478,15 +1478,13 @@ export const OpenMind = () => {
               </div>
             </div>
           </div>
-          <div className='chat'>
             <div className={visible}> 
               <Chatbot />
-              <div className='flex items-center sm:flex-col'>
+              <div className='flex items-center content-center justify-center sm:flex-col'>
                 <img src={chat} alt="" className='bb w-96 h-96' />
               </div>
             </div>
-          </div>
-          <button class='button-chat-button' onClick={() => setMenuVisible()}>
+          <button class='button-chat-button duration-200 ease-in-out' onClick={() => setMenuVisible()}>
               <ChatIcon className='w-11 text-green-600 hover:scale-110 duration-200 ease-in-out hover:text-green-400' />
           </button>
         </div>

@@ -66,8 +66,10 @@
     /* margin-bottom: 91px; */
     display: flex;
     /* flex-direction: column; */
-    /* justify-content: space-between; */
-    /* align-items: center; */
+    justify-content: space-between;
+    align-items: center;
+    transition: 2s;
+    transition-timing-function: ease;
 }
 
 .chat {
