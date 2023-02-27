@@ -154,7 +154,7 @@ export const OpenMind = () => {
                 >
                   OpenMind Connect
                 </h1>
-                <p className='mx-auto mb-10 max-w-[600px] text-base text-white sm:text-lg sm:leading-relaxed md:text-xl md:leading-relaxed'>
+                <p className='effect mx-auto mb-10 max-w-[600px] text-base text-white sm:text-lg sm:leading-relaxed md:text-xl md:leading-relaxed'>
                   Uma empresa de tecnologia focada em ajudar seus projetos a crescer, fornecendo soluções e ferramentas inovadoras para suas operações e aumentar sua eficiência.
                   <br />
                   Nos dedicamos a promover uma abordagem de mente aberta e colaborativa para o crescimento e sucesso dos negócios, ao mesmo tempo em que fornecemos a conectividade e os recursos necessários para te ajudar no sucesso!
