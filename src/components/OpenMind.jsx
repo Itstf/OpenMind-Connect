@@ -33,6 +33,7 @@ import graphic from '../assets/graphic1.png'
 import gif from '../assets/teste.gif'
 
 export const OpenMind = () => {
+  // logica: FAZER MUDAR O STYLE DA CLASSE PARA A DIV DO CHATBOT FECHAR E ABRIR
   const [visible, setVisible] = useState("button-box-fechar")
   const [pressed, setPressed] = useState(false)
 
@@ -168,11 +169,11 @@ export const OpenMind = () => {
                 data-wow-delay='.25s'
               >
                 <div className='mt-16'>
-                  <img
-                    src={tec1}
+                  {/* <img
+                    src={gif}
                     alt='hero'
                     className='mx-auto max-w-full rounded-t-xl rounded-tr-xl hover:scale-110 duration-200 ease-in-out'
-                  />
+                  /> */}
                 </div>
                 <div className='absolute bottom-0 -left-9 z-[-1]'>
                   <svg
@@ -182,7 +183,7 @@ export const OpenMind = () => {
                     fill='none'
                     xmlns='http://www.w3.org/2000/svg'
                   >
-                    <circle
+                    {/* <circle
                       cx='1.66667'
                       cy='104'
                       r='1.66667'
@@ -1311,7 +1312,7 @@ export const OpenMind = () => {
                       r='1.66667'
                       transform='rotate(-90 132 1.66707)'
                       fill='white'
-                    />
+                    /> */}
                   </svg>
                 </div>
               </div>
@@ -1321,7 +1322,7 @@ export const OpenMind = () => {
       </div>
 
       {/* SERVICES  */}
-      <section className='pt-20 pb-8 lg:pt-[120px] lg:pb-[70px] bg-white'>
+      <section className='section bg2 pt-20 pb-8 lg:pt-[120px] lg:pb-[70px] bg-white'>
         <div className='container'>
           <div className='-mx-4 flex flex-wrap'>
             <div className='w-full px-4'>
