@@ -4,18 +4,13 @@ import '../Options/options.css';
 
 const Options = (props) => {
   const options = [
-    {
-      text: "Contatos",
-      handler: props.actionProvider.Contacts,
-      id: 1,
-    },
-    { text: "Perguntas frequentes",
-      handler: props.actionProvider.Doubts, 
-      id: 2 
-    },
     { text: "Sobre a OpenMind Connect",
-      handler: props.actionProvider.about, 
-      id: 2 
+    handler: props.actionProvider.about, 
+    id: 1
+    },
+    { text: "Contatar OpenMind Connect",
+      handler: props.actionProvider.Contatar, 
+      id: 2
     },
   ];
 

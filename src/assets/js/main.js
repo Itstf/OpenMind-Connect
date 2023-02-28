@@ -1,5 +1,5 @@
 (function () {
-  "use strict";
+  // "use strict";
 
   // ======= Sticky
   window.onscroll = function () {
@@ -93,12 +93,12 @@
     animateScroll();
   }
 
-  Math.easeInOutQuad = function (t, b, c, d) {
-    t /= d / 2;
-    if (t < 1) return (c / 2) * t * t + b;
-    t--;
-    return (-c / 2) * (t * (t - 2) - 1) + b;
-  };
+  // Math.easeInOutQuad = function (t, b, c, d) {
+  //   t /= d / 2;
+  //   if (t < 1) return (c / 2) * t * t + b;
+  //   t--;
+  //   return (-c / 2) * (t * (t - 2) - 1) + b;
+  // };
 
   document.querySelector(".back-to-top").onclick = () => {
     scrollTo(document.documentElement);

@@ -5,22 +5,22 @@ import '../Options/options.css';
 const Duvidas = (props) => {
   const duvidas = [
     {
-      text: "OpenMind Connect oferece treinamento e suporte para suas soluções?",
-      handler: props.actionProvider.Doubt1,
+      text: "Email",
+      handler: props.actionProvider.Email,
       id: 1,
     },
-    { text: "Como a OpenMind Connect garante a segurança de dados?",
-      handler: props.actionProvider.Doubt2, 
+    { text: "Whatsapp",
+      handler: props.actionProvider.Whatsapp, 
       id: 2 
     },
-    { text: "Quais setores a OpenMind Connect atende?", 
-    handler: props.actionProvider.Doubt3, 
+    { text: "Redes Sociais", 
+    handler: props.actionProvider.RedesSociais, 
     id: 3
     },
-    { text: "O que é a OpenMind Connect?", 
-    handler: props.actionProvider.Doubt4, 
-    id: 4
-    },
+    // { text: "O que é a OpenMind Connect?", 
+    // handler: props.actionProvider.Doubt4, 
+    // id: 4
+    // },
   ];
 
   const buttonsMarkup = duvidas.map((option) => (

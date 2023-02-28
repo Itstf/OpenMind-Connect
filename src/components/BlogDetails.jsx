@@ -11,6 +11,8 @@ import logoOpenMind1 from '../assets/logo/openMind1.png';
 import tec2 from '../assets/tec2.jpg';
 import footershape1 from '../assets/footer/shape-1.svg';
 import footershape3 from '../assets/footer/shape-3.svg';
+import gifchat from '../assets/teste.gif'
+import blog from '../assets/blog.jpg'
 
 export const BlogDetails = () => {
   return (
@@ -82,7 +84,7 @@ export const BlogDetails = () => {
               <div className='wow fadeInUp relative z-20 mb-[60px] h-[300px] overflow-hidden rounded md:h-[400px] lg:h-[500px]'
                 data-wow-delay='.1s
                 '>
-                <img src={tec2} alt='image' className='h-full w-full object-cover object-center' />
+                <img src={blog} alt='image' className='h-full w-full object-cover object-center' />
                 <div
                   className='absolute top-0 left-0 z-10 flex h-full w-full items-end bg-gradient-to-t from-dark-700 to-transparent'>
                   <div className='flex flex-wrap items-center p-4 pb-4 sm:p-8'>
@@ -123,33 +125,34 @@ export const BlogDetails = () => {
                       Visão OpenMind Connect
                     </h2>
                     <p className='wow fadeInUp mb-8 text-base leading-relaxed text-body-color' data-wow-delay='.1s'>
-                      There's a time and place for everything… including asking
-                      for reviews. For instance: you should not asking for a
-                      review on your checkout page. The sole purpose of this page
-                      is to guide your customer to complete their purchase, and
-                      this means that the page should be as minimalist and
-                      pared-down possible. You don't want to have any unnecessary
-                      elements or Call To Actions.
-                    </p>
-                    <p className='wow fadeInUp mb-10 text-base leading-relaxed text-body-color' data-wow-delay='.1s'>
-                      There's a time and place for everything… including asking
-                      for reviews. For instance: you should not asking for a
-                      review on your checkout page. The sole purpose of this page
-                      is to guide your customer to complete their purchase, and
-                      this means that the page should be as minimalist and
-                      pared-down possible. You don't want to have any unnecessary
-                      elements or Call To Actions.
+                      A nossa visão é transformar a maneira como as pessoas vivem e trabalham, criando um meio de conectividade e propagação. Buscamos ser líderes na criação de soluções tecnológicas inovadoras que ajudam a melhorar a qualidade de suas divulgações e ideias, promovendo o bem-estar social. Queremos ser reconhecidos como uma empresa que inspira, inova e transforma, trazendo mudanças positivas para seus negócios.
                     </p>
                     <h3 className='wow fadeInUp mb-8 text-2xl font-bold text-dark sm:text-[26px]' data-wow-delay='.1s'>
                       Valores
                     </h3>
+                    <p className='wow fadeInUp mb-2 text-base leading-relaxed text-body-color' data-wow-delay='.1s'>
+                      Integridade: Valorizamos a honestidade e transparência em todos os aspectos de negócios.
+                    </p>
+                    <p className='wow fadeInUp mb-2 text-base leading-relaxed text-body-color' data-wow-delay='.1s'>
+                      Excelência: Nos esforçamos para fornecer serviços de alta qualidade e sempre em busca de melhorar e inovar.
+                    </p>
+                    <p className='wow fadeInUp mb-2 text-base leading-relaxed text-body-color' data-wow-delay='.1s'>
+                      Responsabilidade: Assumimos a responsabilidade pelas consequências de nossas ações e trabalhamos para minimizar qualquer impacto negativo.
+                    </p>
+                    <p className='wow fadeInUp mb-2 text-base leading-relaxed text-body-color' data-wow-delay='.1s'>
+                      Respeito: Valorizamos a diversidade e promovemos um ambiente inclusivo e respeitoso para todos os colaboradores e clientes.
+                    </p>
+                    <p className='wow fadeInUp mb-2 text-base leading-relaxed text-body-color' data-wow-delay='.1s'>
+                      Trabalho em equipe: Incentivamos a colaboração e comunicação eficaz entre seus colaboradores e clientes para alcançar objetivos.
+                    </p>
+                    <p className='wow fadeInUp mb-2 text-base leading-relaxed text-body-color' data-wow-delay='.1s'>
+                      Inovação: Valorizamos a criatividade e a inovação para fornecer soluções únicas e eficazes para nossos clientes.
+                    </p>
+                    <p className='wow fadeInUp mb-2 text-base leading-relaxed text-body-color' data-wow-delay='.1s'>
+                      Foco no cliente: Colocamos nossos clientes no centro de nossas operações e trabalhamos para atender suas necessidades e expectativas.
+                    </p>
                     <p className='wow fadeInUp mb-10 text-base leading-relaxed text-body-color' data-wow-delay='.1s'>
-                      At quo cetero fastidii. Usu ex ornatus corpora sententiae,
-                      vocibus deleniti ut nec. Ut enim eripuit eligendi est, in
-                      iracundia signiferumque quo. Sed virtute suavitate
-                      suscipiantur ea, dolor this can eloquentiam ei pro. Suas
-                      adversarium interpretaris eu sit, eum viris impedit ne.
-                      Erant appareat corrumpit ei vel.
+                      Aprendizado contínuo: Valorizamos o desenvolvimento pessoal e profissional de nossos colaboradores e incentivamos a aprendizagem contínua.
                     </p>
                     <div
                       className='wow fadeInUp relative z-10 mb-10 overflow-hidden rounded bg-primary bg-opacity-5 py-8 px-6 text-center sm:p-10 md:px-[60px] shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]'
@@ -165,7 +168,7 @@ export const BlogDetails = () => {
                           </svg>
                         </span>
                         <p className='mb-4 text-base font-medium italic leading-[26px] text-dark'>
-                          Escrever o dilema (frase inspiradora da empresa)
+                          A vida é melhor para aqueles que fazem o possível para ter o melhor.
                         </p>
                         <span className='text-sm italic text-body-color'>
                           “OpenMind Connect”
@@ -201,28 +204,15 @@ export const BlogDetails = () => {
                         </span>
                       </div>
                     </div>
-
                     <h3 className='wow fadeInUp mb-8 text-2xl font-bold text-dark sm:text-[26px]' data-wow-delay='.1s'>
                       Missão
                     </h3>
-
-                    <p className='wow fadeInUp mb-8 text-base leading-relaxed text-body-color' data-wow-delay='.1s'>
-                      At quo cetero fastidii. Usu ex ornatus corpora sententiae,
-                      vocibus deleniti ut nec. Ut enim eripuit eligendi est, in
-                      iracundia signiferumque quo. Sed virtute suavitate
-                      suscipiantur ea, dolor this can eloquentiam ei pro. Suas
-                      adversarium interpretaris eu sit, eum viris impedit ne.
-                      Erant appareat corrumpit ei vel.
+                    <p className='wow fadeInUp mb-4 text-base leading-relaxed text-body-color' data-wow-delay='.1s'>
+                    A missão de nossa empresa de tecnologia e desenvolvimento é utilizar a inovação e a tecnologia para resolver desafios de nossos clientes e melhorar o comércio dos mesmos. Com um compromisso inabalável com a excelência, nossa empresa se dedica a criar soluções que sejam eficazes, confiáveis e sustentáveis, garantindo um impacto positivo duradouro em nossos clientes, parceiros e comunidades. Acreditamos que a tecnologia tem o poder de mudar o mundo para melhor e estamos empenhados em ser líderes nessa mudança. 
                     </p>
                     <p className='wow fadeInUp mb-11 text-base leading-relaxed text-body-color' data-wow-delay='.1s'>
-                      At quo cetero fastidii. Usu ex ornatus corpora sententiae,
-                      vocibus deleniti ut nec. Ut enim eripuit eligendi est, in
-                      iracundia signiferumque quo. Sed virtute suavitate
-                      suscipiantur ea, dolor this can eloquentiam ei pro. Suas
-                      adversarium interpretaris eu sit, eum viris impedit ne.
-                      Erant appareat corrumpit ei vel.
+                    Queremos criar um futuro mais inteligente e conectado para nosso clientes, onde as tecnologias mais avançadas estão disponíveis para todos, independentemente de onde vivem ou de seus recursos, para terem uma maior visibilidade de seus projetos.
                     </p>
-
                     <div className='-mx-4 mb-12 flex flex-wrap items-center'>
                       <div className='w-full px-4 md:w-1/2'>
                         <div className='wow fadeInUp mb-8 flex flex-wrap items-center md:mb-0' data-wow-delay='.1s'>
@@ -247,13 +237,13 @@ export const BlogDetails = () => {
                       data-wow-delay='.1s
                       '>
                       <h3 className='mb-2 text-2xl font-semibold text-white'>
-                        Titulo
+                        OpenMind Connect
                       </h3>
                       <p className='mb-8 text-base text-white'>
-                        pensar em o que colocar
+                        Vamos juntos crescer e alcançar patamares!
                       </p>
                       <p className='text-sm font-medium text-white'>
-                        pensar em o que colocar
+                        Confie de olhos fechados e mente aberta.
                       </p>
                       <div>
                         <span className='absolute top-0 right-0'>
@@ -350,7 +340,7 @@ export const BlogDetails = () => {
                           <div className='w-full'>
                             <h4>
                               <a href='javascript:void(0)'
-                                className='mb-1 inline-block text-lg font-medium leading-snug text-dark hover:text-primary lg:text-base xl:text-lg'>
+                                className='mb-1 inline-block text-lg font-medium leading-snug text-dark cursor-default lg:text-base xl:text-lg'>
                                 Pensar em o que colocar aqui, textããão
                               </a>
                             </h4>
@@ -367,7 +357,7 @@ export const BlogDetails = () => {
                           <div className='w-full'>
                             <h4>
                               <a href='javascript:void(0)'
-                                className='mb-1 inline-block text-lg font-medium leading-snug text-dark hover:text-primary lg:text-base xl:text-lg'>
+                                className='mb-1 inline-block text-lg font-medium leading-snug text-dark cursor-default lg:text-base xl:text-lg'>
                                 Pensar em o que colocar aqui, textããão
                               </a>
                             </h4>
@@ -384,7 +374,7 @@ export const BlogDetails = () => {
                           <div className='w-full'>
                             <h4>
                               <a href='javascript:void(0)'
-                                className='mb-1 inline-block text-lg font-medium leading-snug text-dark hover:text-primary lg:text-base xl:text-lg'>
+                                className='mb-1 inline-block text-lg font-medium leading-snug text-dark cursor-default lg:text-base xl:text-lg'>
                                 Pensar em o que colocar aqui, textããão
                               </a>
                             </h4>
@@ -402,7 +392,7 @@ export const BlogDetails = () => {
                           <div className='w-full'>
                             <h4>
                               <a href='javascript:void(0)'
-                                className='mb-1 inline-block text-lg font-medium leading-snug text-dark hover:text-primary lg:text-base xl:text-lg'>
+                                className='mb-1 inline-block text-lg font-medium leading-snug text-dark cursor-default lg:text-base xl:text-lg'>
                                 Pensar em o que colocar aqui, textããão
                               </a>
                             </h4>
@@ -428,9 +418,9 @@ export const BlogDetails = () => {
             <div className='w-full px-4 md:w-1/2 lg:w-1/3'>
               <div className='wow fadeInUp group mb-10' data-wow-delay='.1s'>
                 <div className='mb-8 overflow-hidden rounded'>
-                  <a href='blog-details.html' className='block'>
+                  <a href='' className='block'>
                     <img src={tec2} alt='image'
-                      className='w-full transition group-hover:rotate-6 group-hover:scale-125' />
+                      className='w-full transition group-hover:rotate-6 group-hover:scale-125 blur-sm hover:blur-none' />
                   </a>
                 </div>
                 <div>
@@ -439,7 +429,7 @@ export const BlogDetails = () => {
                     aaa
                   </span>
                   <h3>
-                    <a href='blog-details.html'
+                    <a href=''
                       className='mb-4 inline-block text-xl font-semibold text-dark hover:text-primary sm:text-2xl lg:text-xl xl:text-2xl'>
                       titulo
                     </a>
@@ -454,25 +444,24 @@ export const BlogDetails = () => {
             <div className='w-full px-4 md:w-1/2 lg:w-1/3'>
               <div className='wow fadeInUp group mb-10' data-wow-delay='.15s'>
                 <div className='mb-8 overflow-hidden rounded'>
-                  <a href='blog-details.html' className='block'>
-                    <img src={tec2} alt='image'
-                      className='w-full transition group-hover:rotate-6 group-hover:scale-125' />
+                  <a href='' className='block'>
+                    <img src={gifchat} alt='image'
+                      className='w-full transition group-hover:rotate-6 group-hover:scale-125 blur-sm hover:blur-none' />
                   </a>
                 </div>
                 <div>
                   <span
                     className='mb-5 inline-block rounded bg-primary py-1 px-4 text-center text-xs font-semibold leading-loose text-white'>
-                    bbb
+                    ChatBot
                   </span>
                   <h3>
-                    <a href='blog-details.html'
+                    <a href=''
                       className='mb-4 inline-block text-xl font-semibold text-dark hover:text-primary sm:text-2xl lg:text-xl xl:text-2xl'>
-                      titulo
+                      Atendimento ao Cliente
                     </a>
                   </h3>
                   <p className='text-base text-body-color'>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.
+                    Novo método de conversa com o cliente utilizando da inteligência artificial e processamento de linguagem natural. Programados para fornecer informações, responder perguntas.
                   </p>
                 </div>
               </div>
@@ -480,9 +469,9 @@ export const BlogDetails = () => {
             <div className='w-full px-4 md:w-1/2 lg:w-1/3'>
               <div className='wow fadeInUp group mb-10' data-wow-delay='.2s'>
                 <div className='mb-8 overflow-hidden rounded'>
-                  <a href='blog-details.html' className='block'>
+                  <a href='' className='block'>
                     <img src={tec2} alt='image'
-                      className='w-full transition group-hover:rotate-6 group-hover:scale-125' />
+                      className='w-full transition group-hover:rotate-6 group-hover:scale-125 blur-sm hover:blur-none' />
                   </a>
                 </div>
                 <div>
@@ -491,7 +480,7 @@ export const BlogDetails = () => {
                     ccc
                   </span>
                   <h3>
-                    <a href='blog-details.html'
+                    <a href=''
                       className='mb-4 inline-block text-xl font-semibold text-dark hover:text-primary sm:text-2xl lg:text-xl xl:text-2xl'>
                       titulo
                     </a>

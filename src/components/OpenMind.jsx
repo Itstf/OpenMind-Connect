@@ -31,6 +31,7 @@ import footershape3 from '../assets/footer/shape-3.svg';
 import chat from '../assets/chat.png';
 import graphic from '../assets/graphic1.png'
 import gif from '../assets/teste.gif'
+import chatbotgif from '../assets/chatbot.gif'
 
 export const OpenMind = () => {
   // logica: FAZER MUDAR O STYLE DA CLASSE PARA A DIV DO CHATBOT FECHAR E ABRIR
@@ -1479,14 +1480,14 @@ export const OpenMind = () => {
               </div>
             </div>
           </div>
-            <div className={visible}> 
-              <Chatbot />
-              <div className='flex items-center content-center justify-center sm:flex-col'>
-                <img src={chat} alt="" className='bb w-96 h-96' />
-              </div>
+          <div className={visible}>
+            <Chatbot />
+            <div className='flex items-center content-center justify-center sm:flex-col'>
+              <img src={chatbotgif} alt="" className='h-96' />
             </div>
+          </div>
           <button class='button-chat-button duration-200 ease-in-out' onClick={() => setMenuVisible()}>
-              <ChatIcon className='w-11 text-green-600 hover:scale-110 duration-200 ease-in-out hover:text-green-400' />
+            <ChatIcon className='w-11 text-green-600 hover:scale-110 duration-200 ease-in-out hover:text-green-400' />
           </button>
         </div>
       </section>
@@ -1716,7 +1717,7 @@ export const OpenMind = () => {
                 data-wow-delay='.1s
               '
               >
-                <button className='faq-btn flex w-full items-center text-left'>
+                <button className='faq-btn flex w-full items-center text-left cursor-default'>
                   <div
                     className='mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-primary'
                   >
@@ -1734,23 +1735,28 @@ export const OpenMind = () => {
                     </svg>
                   </div>
                   <div className='w-full'>
-                    <h4 className='text-base font-semibold text-black sm:text-lg'>
-                      A OpenMind Connect oferece treinamento e suporte para soluções software?
-                    </h4>
+                    <details>
+                      <summary className='text-base font-semibold text-black sm:text-lg cursor-pointer hover:text-green-500 duration-300 ease-in-out'>
+                        A OpenMind Connect oferece treinamento e suporte para soluções software?
+                      </summary>
+                      <p className='py-3 text-base leading-relaxed text-body-color'>
+                        Oferecemos treinamento e suporte para soluções de software para ajudá-los a aprender a manusear de maneira eficaz e eficiente. Também fornecemos suporte técnico contínuo para garantir que o software esteja funcionando corretamente e ajudamos a resolver quaisquer problemas que possam surgir.
+                      </p>
+                    </details>
                   </div>
                 </button>
-                <div className='faq-content hidden pl-[62px]'>
+                {/* <div className='faq-content hidden pl-[62px]'>
                   <p className='py-3 text-base leading-relaxed text-body-color'>
                     Colocar resposta
                   </p>
-                </div>
+                </div> */}
               </div>
               <div
                 className='single-faq wow fadeInUp mb-8 w-full rounded-lg border border-[#F3F4FE] bg-white p-5 sm:p-8'
                 data-wow-delay='.15s
               '
               >
-                <button className='faq-btn flex w-full items-center text-left'>
+                <button className='faq-btn flex w-full items-center text-left cursor-default'>
                   <div
                     className='mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-primary'
                   >
@@ -1768,23 +1774,28 @@ export const OpenMind = () => {
                     </svg>
                   </div>
                   <div className='w-full'>
-                    <h4 className='text-base font-semibold text-black sm:text-lg'>
-                      E quanto a lei LGPD?
-                    </h4>
+                    <details>
+                      <summary className='text-base font-semibold text-black sm:text-lg cursor-pointer hover:text-green-500 duration-300 ease-in-out'>
+                        E quanto a lei LGPD?
+                      </summary>
+                      <p className='py-3 text-base leading-relaxed text-body-color'>
+                        Seguimos as diretrizes estabelecidas pela Lei Geral de Proteção de Dados (LGPD), adotamos medidas técnicas e organizacionais adequadas para garantir a proteção dos dados pessoais.
+                      </p>
+                    </details>
                   </div>
                 </button>
-                <div className='faq-content hidden pl-[62px]'>
+                {/* <div className='faq-content hidden pl-[62px]'>
                   <p className='py-3 text-base leading-relaxed text-body-color'>
                     Colocar resposta
                   </p>
-                </div>
+                </div> */}
               </div>
               <div
                 className='single-faq wow fadeInUp mb-8 w-full rounded-lg border border-[#F3F4FE] bg-white p-5 sm:p-8'
                 data-wow-delay='.2s
               '
               >
-                <button className='faq-btn flex w-full items-center text-left'>
+                <button className='faq-btn flex w-full items-center text-left cursor-default'>
                   <div
                     className='mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-primary'
                   >
@@ -1802,16 +1813,21 @@ export const OpenMind = () => {
                     </svg>
                   </div>
                   <div className='w-full'>
-                    <h4 className='text-base font-semibold text-black sm:text-lg'>
-                      Vou ter minhas expectativas alcançadas?
-                    </h4>
+                    <details>
+                      <summary className='text-base font-semibold text-black sm:text-lg cursor-pointer hover:text-green-500 duration-300 ease-in-out'>
+                        Vou ter minhas expectativas alcançadas?
+                      </summary>
+                      <p className='py-3 text-base leading-relaxed text-body-color'>
+                        A OpenMind Connect garante que suas expectativas sejam alcançadas, para isso, seguimos algumas boas práticas, tais como a de compreender as necessidades do cliente, comunicação clara sobre o processo a ser feito, estabelecimento de metas, entre outras.
+                      </p>
+                    </details>
                   </div>
                 </button>
-                <div className='faq-content hidden pl-[62px]'>
+                {/* <div className='faq-content hidden pl-[62px]'>
                   <p className='py-3 text-base leading-relaxed text-body-color'>
                     Colocar resposta
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className='w-full px-4 lg:w-1/2'>
@@ -1820,7 +1836,7 @@ export const OpenMind = () => {
                 data-wow-delay='.1s
               '
               >
-                <button className='faq-btn flex w-full items-center text-left'>
+                <button className='faq-btn flex w-full items-center text-left cursor-default'>
                   <div
                     className='mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-primary'
                   >
@@ -1838,23 +1854,28 @@ export const OpenMind = () => {
                     </svg>
                   </div>
                   <div className='w-full'>
-                    <h4 className='text-base font-semibold text-black sm:text-lg'>
-                      Como a OpenMind Connect se mantém atualizada com as últimas tendências tecnológicas?
-                    </h4>
+                    <details>
+                      <summary className='text-base font-semibold text-black sm:text-lg cursor-pointer hover:text-green-500 duration-300 ease-in-out'>
+                        Como a OpenMind Connect se mantém atualizada com as últimas tendências tecnológicas?
+                      </summary>
+                      <p className='py-3 text-base leading-relaxed text-body-color'>
+                        Investimos em pesquisas e desenvolvimento para desenvolver novas tecnologias e aprimorar as existentes, mantendo-se dentro do mercado de trabalho junto com profissionais qualificados para gerenciar e implementar tecnologias de ponta.
+                      </p>
+                    </details>
                   </div>
                 </button>
-                <div className='faq-content hidden pl-[62px]'>
+                {/* <div className='faq-content hidden pl-[62px]'>
                   <p className='py-3 text-base leading-relaxed text-body-color'>
                     Colocar resposta
                   </p>
-                </div>
+                </div> */}
               </div>
               <div
                 className='single-faq wow fadeInUp mb-8 w-full rounded-lg border border-[#F3F4FE] bg-white p-5 sm:p-8'
                 data-wow-delay='.15s
               '
               >
-                <button className='faq-btn flex w-full items-center text-left'>
+                <button className='faq-btn flex w-full items-center text-left cursor-default'>
                   <div
                     className='mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-primary'
                   >
@@ -1872,23 +1893,28 @@ export const OpenMind = () => {
                     </svg>
                   </div>
                   <div className='w-full'>
-                    <h4 className='text-base font-semibold text-black sm:text-lg'>
-                      Quais setores a OpenMind Connect atende?
-                    </h4>
+                    <details>
+                      <summary className='text-base font-semibold text-black sm:text-lg cursor-pointer hover:text-green-500 duration-300 ease-in-out'>
+                        Quais setores a OpenMind Connect atende?
+                      </summary>
+                      <p className='py-3 text-base leading-relaxed text-body-color'>
+                        Colocar resposta
+                      </p>
+                    </details>
                   </div>
                 </button>
-                <div className='faq-content hidden pl-[62px]'>
+                {/* <div className='faq-content hidden pl-[62px]'>
                   <p className='py-3 text-base leading-relaxed text-body-color'>
                     Colocar resposta
                   </p>
-                </div>
+                </div> */}
               </div>
               <div
                 className='single-faq wow fadeInUp mb-8 w-full rounded-lg border border-[#F3F4FE] bg-white p-5 sm:p-8'
                 data-wow-delay='.2s
               '
               >
-                <button className='faq-btn flex w-full items-center text-left'>
+                <button className='faq-btn flex w-full items-center text-left cursor-default'>
                   <div
                     className='mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary bg-opacity-5 text-primary'
                   >
@@ -1906,16 +1932,22 @@ export const OpenMind = () => {
                     </svg>
                   </div>
                   <div className='w-full'>
-                    <h4 className='text-base font-semibold text-black sm:text-lg'>
-                      a OpenMind Connect é confiável?
-                    </h4>
+                    <details>
+                      <summary className='text-base font-semibold text-black sm:text-lg cursor-pointer hover:text-green-500 duration-300 ease-in-out'>
+                        A OpenMind Connect é confiável?
+                      </summary>
+                      <p className='py-3 text-base leading-relaxed text-body-color'>
+
+                        Demonstramos capacidade de cumprir com nossas obrigações e promessas aos clientes, somos uma empresa de total transparência e mente aberta para uma comunicação de maneira clara e oferecemos um trabalho de total qualidade!
+                      </p>
+                    </details>
                   </div>
                 </button>
-                <div className='faq-content hidden pl-[62px]'>
+                {/* <div className='faq-content hidden pl-[62px]'>
                   <p className='py-3 text-base leading-relaxed text-body-color'>
                     Colocar resposta
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

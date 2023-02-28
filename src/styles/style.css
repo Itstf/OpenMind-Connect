@@ -88,10 +88,10 @@
 }
 
 
-/* .ud-header {
+.ud-header {
     position: fixed;
     background-color: rgb(21 23 25);
-} */
+}
 
 #home {
     background-color: rgb(21 23 25);
@@ -151,4 +151,9 @@
 .effect {
     margin: auto;
     animation: lights 5s 750ms linear infinite;
+}
+
+summary{
+    list-style-type: '';
+    color: #191970;
 }

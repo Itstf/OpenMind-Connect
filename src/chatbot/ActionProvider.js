@@ -6,7 +6,7 @@ class ActionProvider {
   
     greet = () => {
       const message = this.createChatBotMessage(
-        'Em que podemos ajudar?',
+        'Em que podemos ajudar? Clique em uma das opções.',
         {
           widget: "options",
         }
@@ -14,29 +14,29 @@ class ActionProvider {
       this.addMessageToState(message);
     };
   
-    Contacts = () => {
-      const message = this.createChatBotMessage(
-        "Vias de Contato",
-      );
-      const message2 = this.createChatBotMessage(
-        "Instagram: @OpenMind.Connect",
-      );
-      const message3 = this.createChatBotMessage(
-        "Tel: (19) 99423-8412",
-      );
-      const message4 = this.createChatBotMessage(
-        "Email: openConnect@gmail.com",
-      );
+    // Contacts = () => {
+    //   const message = this.createChatBotMessage(
+    //     "Vias de Contato",
+    //   );
+    //   const message2 = this.createChatBotMessage(
+    //     "Instagram: @OpenMind.Connect",
+    //   );
+    //   const message3 = this.createChatBotMessage(
+    //     "Tel: (19) 99423-8412",
+    //   );
+    //   const message4 = this.createChatBotMessage(
+    //     "Email: openConnect@gmail.com",
+    //   );
 
-      this.addMessageToState(message);
-      this.addMessageToState(message2);
-      this.addMessageToState(message3);
-      this.addMessageToState(message4);
-    };
+    //   this.addMessageToState(message);
+    //   this.addMessageToState(message2);
+    //   this.addMessageToState(message3);
+    //   this.addMessageToState(message4);
+    // };
 
-    Doubts = () => {
+    Contatar = () => {
       const message = this.createChatBotMessage(
-        "Selecione a pergunta",
+        "Selecione o meio de contato desejado",
         {
           widget: "duvidasQuiz",
         }
@@ -44,33 +44,25 @@ class ActionProvider {
   
       this.addMessageToState(message);
     };
-      Doubt1 = () => {
+      Email = () => {
         const message = this.createChatBotMessage(
-          "x",
+          "openMindconnect@gmail.com",
         );
     
         this.addMessageToState(message);
       };
 
-      Doubt2 = () => {
+      Whatsapp = () => {
         const message = this.createChatBotMessage(
-          "y",
+          "(19) 99423-8412",
         );
     
         this.addMessageToState(message);
       };
 
-      Doubt3 = () => {
+      RedesSociais = () => {
         const message = this.createChatBotMessage(
-          "z",
-        );
-    
-        this.addMessageToState(message);
-      };
-
-      Doubt4 = () => {
-        const message = this.createChatBotMessage(
-          "xyz",
+          "@openmind.connect",
         );
     
         this.addMessageToState(message);
@@ -78,7 +70,7 @@ class ActionProvider {
 
     about = () => {
       const message = this.createChatBotMessage(
-        'aaaa',
+        'Sobre empresa',
         {
           widget: "javascriptQuiz",
         }
